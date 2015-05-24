@@ -1,6 +1,6 @@
 class TestsController < ApplicationController
-def index
-end
 def home
+end
+def index
 end
 end
