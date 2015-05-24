@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
-#get 'tests/index'
 get 'tests/home'
+#get 'tests/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  #root 'tests#index'
-  root 'tests#home'
+    root 'tests#home'
+	#root 'tests#index'
   
   resources :tests
   # Example of regular route:
